@@ -261,6 +261,9 @@ body {
         min-height: fit-content;
         overflow: hidden;
     }
+    .mobile__center, .name__div {
+        padding-left: 3vh;
+    }
     .main__info {
         max-width: 100vw;
         border-left: none;
