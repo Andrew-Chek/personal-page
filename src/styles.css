@@ -269,13 +269,13 @@ body {
     }
     .slider {
         margin: 0 auto;
-        width: 70vw;
+        min-width: 70vw;
     }
     .info__label {
         height: 70px;
     }
     .img {
-        width: 70vw;
+        min-width: 70vw;
     }
     .slider__imgs {
         width: 212vw;
