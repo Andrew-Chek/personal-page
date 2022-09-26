@@ -269,16 +269,16 @@ body {
     }
     .slider {
         margin: 0 auto;
-        width: 50vw;
+        width: 70vw;
     }
     .info__label {
         height: 70px;
     }
     .img {
-        width: 50vw;
+        width: 70vw;
     }
     .slider__imgs {
-        width: 151vw;
+        width: 212vw;
     }
     .image__gif {
         max-width: 70vw;

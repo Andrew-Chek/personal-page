@@ -41,6 +41,6 @@ if(window.innerWidth > 1360)
 }
 else
 {
-    addSliderEvents(3, 50);
+    addSliderEvents(3, 70);
 }
 addMadaraEvent();
