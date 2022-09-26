@@ -271,11 +271,14 @@ body {
         margin: 0 auto;
         width: 50vw;
     }
+    .info__label {
+        height: 70px;
+    }
     .img {
         width: 50vw;
     }
     .slider__imgs {
-        width: 150vw;
+        width: 151vw;
     }
     .image__gif {
         max-width: 70vw;
