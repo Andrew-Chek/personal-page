@@ -11,7 +11,7 @@ const MinifyPlugin = require("babel-minify-webpack-plugin");
 const devMode = process.env.NODE_ENV !== "production";
 
 const CONFIG = {
-  entry: "./src/js/app.js",
+  entry: "./app.js",
   mode: process.env.NODE_ENV,
   devtool: "cheap-module-source-map",
   output: {
@@ -20,7 +20,7 @@ const CONFIG = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: "./index.html",
       filename: "./index.html",
       minify: {
         collapseWhitespace: true,
@@ -119,7 +119,7 @@ const CONFIG = {
 
 if (!devMode) {
   CONFIG.output.publicPath = "./";
-  CONFIG.output.filename = "js/app.js";
+  CONFIG.output.filename = "app.js";
   CONFIG.plugins.push(new MinifyPlugin());
   CONFIG.module.rules.push({
     test: [/\.js$/],

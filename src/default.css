@@ -1,4 +1,3 @@
-/* stylelint-disable */
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address,
 big, code, del, dfn, em, img, q, s, samp, small, strong, sub, sup, tt, var, b, u, i, dl,
 dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr,
@@ -90,7 +89,6 @@ textarea {
     text-shadow: none;
 }
 
-/* Box Model */
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -98,7 +96,6 @@ textarea {
   box-sizing: border-box;
 }
 
-/* A better looking default horizontal rule */
 
 hr {
   display: block;
@@ -108,4 +105,3 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
-/* stylelint-enable */

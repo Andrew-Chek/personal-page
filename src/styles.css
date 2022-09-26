@@ -145,7 +145,6 @@ body {
 .menu {
     width: 50vw;
     display: flex;
-    /* margin-left: 1.5em; */
     align-items: center;
     transform: translate(-1000%);
     z-index: 998;
